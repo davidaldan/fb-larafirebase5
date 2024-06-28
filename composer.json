@@ -1,0 +1,34 @@
+{
+    "name": "fb/larafirebase5",
+    "description": "Laravel Firebase Cloud Messaging.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Aldan"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kutia\\Larafirebase\\": "src/"
+        },
+        "files": [
+            "src/Helpers/All.php"
+        ]
+    },
+    "require": {
+        "illuminate/support": "5.3.x|5.4.x|5.5.x|5.6.x",
+        "illuminate/notifications": "5.3.x|5.4.x|5.5.x|5.6.x"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kutia\\Larafirebase\\Providers\\LarafirebaseServiceProvider"
+            ]
+        }
+    }
+}
