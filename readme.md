@@ -194,3 +194,7 @@ return Larafirebase::fromRaw([
 ---
 
 <sup>Made with ♥ by Gentrit Abazi ([@gentritabazi](https://github.com/gentritabazi)).</sup>
+
+
+
+https://packagist.org/profile/
